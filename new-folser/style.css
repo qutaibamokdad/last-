@@ -1,0 +1,40 @@
+
+        body {
+            margin: 0px
+
+        }
+
+        
+        .header {
+            background-color:#0171f9;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px ;
+        }
+
+        .logo{
+            width: 120 px;
+        }
+
+        .header-link a{
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 20px
+        }
+        .header-link a:hover{
+            background-color: #2386fe;
+        } 
+
+        .header-link button{
+            background-color: #fe2d23;
+            color: #ffffff;
+            border-radius: 20px;
+            padding: 10PX 20PX;
+            border: none;
+        }
+
+        .header-link button:hover{
+            background-color: #fe5d56;
+        }
