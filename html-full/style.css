@@ -10,8 +10,6 @@ body {
     background-color: #0171F9;
 }
 .header {
-    /* position: sticky; */
-    /* top: 0; */
     height: 80px;
     background-color: #0171F9;
     color: #fff;
@@ -175,9 +173,8 @@ body {
 
 .trendingCard .card {
     position: relative;
-}
-
-
+    
+    
 .trendingCard .card img {
     border-radius: 20px;
 }
@@ -354,4 +351,4 @@ body {
     padding-top: 10px;
     resize: none;
 }
-/* END FORM  */
+/* END FORM  */}

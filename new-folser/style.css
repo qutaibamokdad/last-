@@ -3,16 +3,15 @@
             margin: 0px
         }
 
-        
+        /* Starting the header of the page */
         .header {
             background-color:#0171f9;
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 30px 390px ;
-            font-family: 'Poppins', sans-serif;
         }
-
+        
         .logo{
             width: 120 px;
         }
@@ -29,7 +28,7 @@
         .header-link a:hover{
             background-color: #2386fe;
         } 
-
+        /* this class(btn) for all of button in the page */
         .btn{
             background-color: #fe2d23;
             color: #ffffff;
@@ -56,9 +55,10 @@
         }
         .landing-page-left{
             width: 650px;
+            
         }
 
-        .landing-page-search input {
+         .landing-page-search input {
             border-radius: 50px;
             border: none;
             outline: none;
@@ -73,15 +73,15 @@
         }
 
         .landing-page-img-home img{
-            border-radius: 40px 40px 40px 40px; 
+            border-radius:  40px ; 
             width: 100%;
             padding-left: 30px;
             padding-top: 20px;
         }
 
         .trending-page{
-            font-family: 'Poppins', sans-serif;
-            padding: 35px   390px ;
+        margin-top: 200px;
+
         }
         .trending-header span{
             text-transform: uppercase;
@@ -98,12 +98,16 @@
 
         .cards-gap{
             display: flex;
-            gap: 5%;
+            gap: 110px;
         }
         .trending-cards{
             width: 300px;
             background-color: #eeeeee; 
             border-radius: 20px;
+        }
+        .trending-page{
+            font-family: 'Poppins', sans-serif;
+            padding: 35px 390px  ;
         }
         .card .thump{
             border-radius: 20px 20px 0px 0px;
@@ -117,3 +121,97 @@
         .card-info img{
             width: 50px;
         }
+        .top-games-header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .top-games{
+            background-color: #eeeeee;
+            margin-top: 200px;
+            padding: 100px 360px;
+            border-radius: 100px;
+            font-family: 'Poppins', sans-serif;  
+            font-size: 20px;
+            
+        }
+        .top-games-header{
+            font-size: 25px;
+        }
+        .top-games span{
+            color: #fe2d23;
+            font-size: 25px;     
+            display: flex;
+
+        }
+        .cards{
+            display: flex;
+            gap: 10px;
+            justify-content: center ;
+            padding: 1px 400px;
+            
+
+        }
+        .under{ 
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            height: 60%;
+        }
+         .card-img{
+            border-radius: 20px;
+            justify-content: center;
+        }
+        .under button{
+            font-size: 25px;
+        }
+        /* started the last suction */
+        .last-header{
+            margin-top: 200px;
+
+            font-family: 'Poppins', sans-serif; 
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+        }
+        .last span{
+            display: flex;
+            flex-direction: column;
+            color: #fe2d23;
+            align-items: center;
+        }
+        .last-card{
+            display: flex;
+            padding: 30px 250px;   
+            gap: 50px; 
+        }
+        
+        .action{
+            background-color: #0171f9;
+            color: #eeeeee;
+            width: fit-content;
+            padding: 10px 83.5px;
+            justify-content: center;
+            margin: 0%;
+            border-radius: 20px 20px 0px 0px;
+
+        }
+        .last-img {
+            position: relative;
+            border-radius:  0px 0px 20px 20px ;
+            width: fit-content;
+        }
+        .copy {
+            background-color: #0171f9;
+            padding: 100px 350px;
+            color: #eeeeee;
+            border-radius: 50px 50px 0px 0px;
+            margin-top: 200px;
+            }
+            .copy-p p{
+                align-items: center;
+                font-size: 33px;
+                font-family: Arial, Helvetica, sans-serif;
+
+            }
